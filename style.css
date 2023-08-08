@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.menu{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.logo{
+    width: 100px;
+}
+.item-container{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+.btn{
+    padding:15px 30px;
+    outline: none;
+    border: none;
+    
+}
+.primary-btn{
+    background-color: red;
+    color: white;
+}
+.banner-container{
+    width: 100%;
+    height:100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-image: url("https://gias-uddin-swe.github.io/digital-agency/asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+}
+.description{
+    width:50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.title{
+    font-size: 56px;
+}
+.digital{
+    color: red;
+    font-weight: bold;
+}
+.card{
+    width: 250px;
+height: 330px;
+border: 1px solid gray;
+/* padding: 10px; */
+border-radius: 5px;
+}
+.card-img{
+    width: 100%;
+}
+.card-container{
+    display: flex;
+    justify-content:space-around;
+}
+.blog-container{
+    text-align: center;
+}
